@@ -1,0 +1,21 @@
+import requests
+
+print('Bismillah..')
+print('hello world')
+
+"""
+r = requests.get('https://google.com')
+print(r.status_code)
+
+if r.status_code == 200:
+    print(r.text)
+"""
+
+try:
+    r = requests.get('https://go ogle.com')
+    print(r.status_code)
+
+    if r.status_code == 200:
+        print(r.text)
+except Exception as e:
+    print('error here', e)
